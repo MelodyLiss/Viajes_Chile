@@ -12,4 +12,8 @@ body {
 
 .quienes_somos i, .quienes_somos .card-body, .destacados i, .destacados .card-body {
   background-color: #0fc8f0;
+}
+
+form .btn {
+  background-color: #0fc8f0 !important;
 }/*# sourceMappingURL=style.css.map */
