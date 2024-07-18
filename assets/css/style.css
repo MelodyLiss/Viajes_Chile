@@ -16,4 +16,11 @@ body {
 
 form .btn {
   background-color: #0fc8f0 !important;
+}
+
+footer {
+  background-color: #0fc8f0;
+}
+footer i {
+  color: white;
 }/*# sourceMappingURL=style.css.map */
