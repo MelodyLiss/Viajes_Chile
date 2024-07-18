@@ -1,6 +1,15 @@
+body {
+  background-color: #000000;
+  color: white;
+}
+
 .navbar {
   font-size: 1rem;
 }
 .navbar img {
   width: 5%;
+}
+
+.quienes_somos i {
+  background-color: #0fc8f0;
 }/*# sourceMappingURL=style.css.map */

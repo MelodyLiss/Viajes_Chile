@@ -8,7 +8,12 @@ $bg_color : #000000;
 $primary_font : Helvetica, sans-serif;
 $secondary: Arial ;
 
-//!CÓDIGO
+//!Estilos
+
+body{
+    background-color: $bg_color;
+    color: white;
+}
 
 //Barra de navegacion
 
@@ -19,6 +24,11 @@ $secondary: Arial ;
     }
 }
 
-//Carrusel
+//Quienes somos
 
+.quienes_somos{
+    i{
+        background-color: $primary_color;
+    }
+}
 
