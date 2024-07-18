@@ -26,9 +26,10 @@ body{
 
 //Quienes somos
 
-.quienes_somos{
-    i{
+.quienes_somos, .destacados{
+    i, .card-body{
         background-color: $primary_color;
     }
+
 }
 
