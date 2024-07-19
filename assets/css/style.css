@@ -1,4 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 body {
+  font-family: "Raleway", sans-serif;
   background-color: #000000;
   color: white;
 }
@@ -7,11 +9,18 @@ body {
   font-size: 1rem;
 }
 .navbar img {
-  width: 5%;
+  width: 3rem;
 }
 
 .quienes_somos i, .quienes_somos .card-body, .destacados i, .destacados .card-body {
   background-color: #0fc8f0;
+}
+
+.card-img-top, .img_cover {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 form .btn {
