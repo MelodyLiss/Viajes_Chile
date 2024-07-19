@@ -14,7 +14,6 @@ $secondary: Arial ;
 body{
     font-family: $primary_font;
     background-color: $bg_color;
-    color: white;
 }
 
 //Barra de navegacion
@@ -31,6 +30,7 @@ body{
 .quienes_somos, .destacados{
     i, .card-body{
         background-color: $primary_color;
+
     }
 
 }
