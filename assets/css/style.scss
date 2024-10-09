@@ -14,6 +14,7 @@ $secondary: Arial ;
 body{
     font-family: $primary_font;
     background-color: $bg_color;
+    color: white;
 }
 
 //Barra de navegacion
@@ -23,6 +24,12 @@ body{
     img{
         width: 3rem;
     }
+}
+
+//para cambiarle el color de fondo al hacer scroll
+.navbar-scrolled {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    transition: background-color 0.3s ease;
 }
 
 //Quienes somos
